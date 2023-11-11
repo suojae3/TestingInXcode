@@ -113,6 +113,18 @@
 
 ## Result Bundles
 
+<img width="575" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/3cb191e4-a43c-46dc-ab84-b9f1f7308ac0">
 
 - what is a result bundle? A result bundle is a file produced by Xcode containing structured data describing the outcome of building and running your tests.
+- The test report showing you which test passed and failed. The code coverage report reviewing which code was covered by the test ran, and any test attachments that were created by the tests using XC test attachment APIs. 
+
+<br/>
+
+<img width="674" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/c0a3a312-e1cb-40f7-ad5c-622d4dc9eb1b">
+
+- See failing and passing test in the test report, dig into the build failures in the build log, and see how you're doing on coverage in the code coverage report.
+
+<br/>
+
+- Xccov provides programmatic access to the code coverage report either as human readable text or JSON.
 
