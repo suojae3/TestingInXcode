@@ -1,6 +1,7 @@
-# TestingInXcode
+<br/>
 
 
+## Testing In Xcode
 
 <br/>
 
@@ -66,4 +67,52 @@
 
 - Code Coverage is a feature in Xcode in XCTest that will measure and visualize the number of times each line of your source code was executed during your test run.
 - You can also see complex information showing individual code paths that were not hit during your test, such as conditionals that were never selected.
+
+  <br/>
+
+  <img width="546" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/09ea50fc-6ae0-4b9d-a1dd-e679c93f5ccf">
+
+- If you feel like your tests don't fully cover your changes, it may be a good time to go back and write more tests.
+
+<br/>
+
+#
+
+## Test Plans
+
+<img width="851" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/7ae16716-3e11-4161-9c40-f1ea9affaacc">
+
+- test plans allows running your test more than once with different settings.
+- as I'm developing my test, I may not run-- run them all those times. So I can choose to just run a single configuration by option clicking on the test diamond and here I see a menu with just so I could select one configuration.
+  
+<br/>
+
+#
+
+## Continuous Integration Workflows
+
+<img width="491" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/61b61839-53fd-4fe4-93ab-fa2691bf785e">
+
+-   you use the test action, passing in the name of the project and scheme you want to test, as well as the destination on which tests should be run. The second is to build and then test. This puts up the actions of building and testing into two separate invocations of xcodebuild.
+
+<br/>
+
+<img width="882" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/a762b2dc-5f61-45f1-9fa3-606f02d635d2">
+
+- Speaking of running tests, xcodebuild supports testing on multiple devices or simulators at the same time.
+
+<br/>
+
+<img width="659" alt="image" src="https://github.com/suojae3/TestingInXcode/assets/126137760/b4e2df23-5158-4d32-ab00-8193515c370e">
+
+- To overwrite the default test plan, use the test plan option passing in the name of the particular plan that you want to run.
+
+<br/>
+
+#
+
+## Result Bundles
+
+
+- what is a result bundle? A result bundle is a file produced by Xcode containing structured data describing the outcome of building and running your tests.
 
